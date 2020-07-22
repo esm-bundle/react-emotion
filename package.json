@@ -36,8 +36,8 @@
   },
   "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
   "devDependencies": {
-    "autopublish-template": "20.0.0",
-    "esm-bundle-scripts": "1.2.0"
+    "esm-bundle-scripts": "1.2.0",
+    "react-emotion": "9"
   },
   "publishConfig": {
     "access": "public"
