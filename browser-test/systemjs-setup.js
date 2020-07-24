@@ -1,7 +1,7 @@
 const importMap = {
   imports: {
     react:
-      "//unpkg.com/@esm-bundle/react@16.13.1/system/react.production.min.js",
+      "//cdn.jsdelivr.net/npm/@esm-bundle/react/system/react.production.min.js",
     emotion: `//cdn.jsdelivr.net/npm/@esm-bundle/emotion@9.2.12/system/emotion.min.js`,
   },
 };
