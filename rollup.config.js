@@ -30,7 +30,7 @@ function createConfig(format, options = {}) {
       replace({
         values: {
           "process.env.NODE_ENV": JSON.stringify(
-            min ? "production" : "development"
+            min || resolved ? "production" : "development"
           ),
         },
       }),
