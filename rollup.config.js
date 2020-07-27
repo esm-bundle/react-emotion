@@ -14,7 +14,7 @@ function createConfig(format, options = {}) {
       format,
       paths: {
         react: resolved
-          ? `//cdn.jsdelivr.net/npm/@esm-bundle/react@16.13.1/esm/react.production.min.js`
+          ? `//cdn.jsdelivr.net/npm/@esm-bundle/react/esm/react.production.min.js`
           : "react",
         emotion: resolved
           ? `//cdn.jsdelivr.net/npm/@esm-bundle/emotion@9.2.12/esm/emotion.min.js`
