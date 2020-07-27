@@ -3,6 +3,8 @@ import commonjs from "@rollup/plugin-commonjs";
 import replace from "@rollup/plugin-replace";
 import { terser } from "rollup-plugin-terser";
 
+const REACT_VERSION = `16.13.1`;
+
 function createConfig(format, options = {}) {
   const dir = format === "module" ? "esm" : format;
   const { resolved = false, min = false } = options;
@@ -14,7 +16,7 @@ function createConfig(format, options = {}) {
       format,
       paths: {
         react: resolved
-          ? `//cdn.jsdelivr.net/npm/@esm-bundle/react/esm/react.production.min.js`
+          ? `//cdn.jsdelivr.net/npm/@esm-bundle/react@${REACT_VERSION}/esm/react.production.min.js`
           : "react",
         emotion: resolved
           ? `//cdn.jsdelivr.net/npm/@esm-bundle/emotion@9.2.12/esm/emotion.min.js`
