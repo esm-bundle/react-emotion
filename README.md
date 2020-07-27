@@ -36,4 +36,4 @@ yarn add react-emotion@npm:@esm-bundle/react-emotion
 
 ## Dependencies
 
-react-emotion requires [react](https://github.com/esm-bundle/react) and [emotion](https://github.com/esm-bundle/emotion) as dependencies.
+react-emotion requires [react](https://github.com/esm-bundle/react) and [emotion](https://github.com/esm-bundle/emotion) (specifically [emotion@9](https://cdn.jsdelivr.net/npm/@esm-bundle/emotion@9.2.12/esm/emotion.min.js)) as dependencies. As of emotion@10, this package was migrated to @emotion/core.
