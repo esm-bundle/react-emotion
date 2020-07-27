@@ -33,3 +33,7 @@ npm install --save react-emotion@npm:@esm-bundle/react-emotion
 ```sh
 yarn add react-emotion@npm:@esm-bundle/react-emotion
 ```
+
+## Dependencies
+
+react-emotion requires [react](https://github.com/esm-bundle/react) and [emotion](https://github.com/esm-bundle/emotion) as dependencies.
