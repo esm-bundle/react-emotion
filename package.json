@@ -47,7 +47,7 @@
     "access": "public"
   },
   "dependencies": {
-    "emotion": "npm:@esm-bundle/emotion@10.0.27",
+    "emotion": "npm:@esm-bundle/emotion@9.2.12",
     "react": "npm:@esm-bundle/react"
   }
 }

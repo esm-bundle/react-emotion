@@ -2082,10 +2082,10 @@ emoji-regex@^8.0.0:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
   integrity sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==
 
-"emotion@npm:@esm-bundle/emotion@10.0.27":
-  version "10.0.27"
-  resolved "https://registry.yarnpkg.com/@esm-bundle/emotion/-/emotion-10.0.27.tgz#660ecb69186345b36a4aeee9c7bb2dad7e0d7b04"
-  integrity sha512-/o7/rpB6ZmzH1qrlLOL1MjNORcUPL72mITIeDZvANznjwoyYrak3TWKSfZpxRXdrI/uBDSK86trrESWlcwxmHA==
+"emotion@npm:@esm-bundle/emotion@9.2.12":
+  version "9.2.12"
+  resolved "https://registry.yarnpkg.com/@esm-bundle/emotion/-/emotion-9.2.12.tgz#303fd5c6a232f6c7c9b8b55e5fa12d491619785b"
+  integrity sha512-0Bpgnx1mJWmGWjdS8KijrhanYZyi74W7Wt8jv70TtkVRzL2RysF5fILKZ+HcWCZ6MiwCUpv6Ui1DuE7v85axZw==
 
 encodeurl@~1.0.2:
   version "1.0.2"
