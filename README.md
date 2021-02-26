@@ -1,6 +1,6 @@
 # react-emotion
 
-[![npm version](https://img.shields.io/npm/v/@esm-bundle/react-emotion.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/react-emotion) [![build status](https://travis-ci.com/esm-bundle/react-emotion.svg?branch=master)](https://travis-ci.com/esm-bundle/react-emotion) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/react-emotion/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/react-emotion)
+[![npm version](https://img.shields.io/npm/v/@esm-bundle/react-emotion.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/react-emotion) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/react-emotion/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/react-emotion)
 
 ["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
 
