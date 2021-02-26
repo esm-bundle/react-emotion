@@ -7,19 +7,16 @@
   "type": "module",
   "scripts": {
     "test": "yarn build && run-s -l test:*",
-    "test:formatting": "prettier --check './**/*'",
+    "test:formatting": "prettier --check .",
     "test:unit": "mocha -r chai/register-expect 'node-test/**/*.*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",
     "build": "rollup -c",
-    "format": "prettier --write './**/*'",
+    "format": "prettier --write .",
     "release": "release-it",
-    "prepublishOnly": "yarn build"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && yarn test"
-    }
+    "prepublishOnly": "yarn build && pinst --disable",
+    "postinstall": "husky install",
+    "postpublish": "pinst --enable"
   },
   "files": [
     "esm",
@@ -36,12 +33,26 @@
   },
   "homepage": "https://github.com/esm-bundle/react-emotion#readme",
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "11.1.1",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "11.2.0",
     "@rollup/plugin-replace": "2.3.4",
-    "esm-bundle-scripts": "1.2.0",
+    "chai": "^4.3.0",
+    "concurrently": "^6.0.0",
+    "husky": "5",
+    "karma": "^6.1.1",
+    "karma-firefox-launcher": "^2.1.0",
+    "karma-jasmine": "^4.0.1",
+    "mocha": "^8.3.0",
     "npm-run-all": "4.1.5",
+    "pinst": "^2.1.6",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
     "prop-types": "15.7.2",
-    "react-emotion": "9.2.12"
+    "react-emotion": "9.2.12",
+    "release-it": "^14.4.1",
+    "release-it-plugin-esm-bundle": "^2.1.0",
+    "rollup": "^2.40.0",
+    "rollup-plugin-terser": "^7.0.2"
   },
   "publishConfig": {
     "access": "public"
