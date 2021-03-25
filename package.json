@@ -54,9 +54,6 @@
     "rollup": "2.42.3",
     "rollup-plugin-terser": "7.0.2"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "emotion": "npm:@esm-bundle/emotion@9.2.12",
     "react": "npm:@esm-bundle/react"
