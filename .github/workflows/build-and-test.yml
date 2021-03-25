@@ -18,6 +18,7 @@ jobs:
       - uses: pnpm/action-setup@v1.2.1
         with:
           version: 5.17.3
+      - run: pnpm store prune
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
   publish:
