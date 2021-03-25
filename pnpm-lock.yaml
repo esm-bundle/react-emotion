@@ -1,6 +1,6 @@
 dependencies:
   emotion: /@esm-bundle/emotion/9.2.12
-  react: /@esm-bundle/react/17.0.1-fix.0
+  react: /@esm-bundle/react/17.0.2-fix.0
 devDependencies:
   '@rollup/plugin-commonjs': 17.1.0_rollup@2.42.3
   '@rollup/plugin-node-resolve': 11.2.0_rollup@2.42.3
@@ -17,7 +17,7 @@ devDependencies:
   prettier: 2.2.1
   pretty-quick: 3.1.0_prettier@2.2.1
   prop-types: 15.7.2
-  react-emotion: 9.2.12_c492370f33c6af09b9ddeceb7f994db7
+  react-emotion: 9.2.12_3bf72d4adc38f20326a9795bd0cffb72
   release-it: 14.5.0
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.42.3
@@ -112,10 +112,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-0Bpgnx1mJWmGWjdS8KijrhanYZyi74W7Wt8jv70TtkVRzL2RysF5fILKZ+HcWCZ6MiwCUpv6Ui1DuE7v85axZw==
-  /@esm-bundle/react/17.0.1-fix.0:
+  /@esm-bundle/react/17.0.2-fix.0:
     dev: false
     resolution:
-      integrity: sha512-O6iqnEGZHh8xPsRtzo/66Gmqv5zQZqszD5nr5dgDnYq/pEGdb9X0RWTSVczT4e6XqJuVsG12uq4+H5Sw6qvegA==
+      integrity: sha512-Q9NmLtdlmbngYIRDHtatlt0yxolCfRxubUyDvQ2pMZJfw2b5JT7bSYWyCyLOC0vEIfuJCXrHxZ4cIYifLCkGVg==
   /@iarna/toml/2.2.5:
     dev: true
     resolution:
@@ -2921,12 +2921,12 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==
-  /react-emotion/9.2.12_c492370f33c6af09b9ddeceb7f994db7:
+  /react-emotion/9.2.12_3bf72d4adc38f20326a9795bd0cffb72:
     dependencies:
       babel-plugin-emotion: 9.2.11
       create-emotion-styled: 9.2.8_prop-types@15.7.2
       emotion: /@esm-bundle/emotion/9.2.12
-      react: /@esm-bundle/react/17.0.1-fix.0
+      react: /@esm-bundle/react/17.0.2-fix.0
     dev: true
     peerDependencies:
       emotion: ^9.1.3
