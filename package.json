@@ -6,7 +6,7 @@
   "module": "esm/index.js",
   "type": "module",
   "scripts": {
-    "test": "yarn build && run-s -l test:*",
+    "test": "pnpm build && run-s -l test:*",
     "test:formatting": "prettier --check .",
     "test:unit": "mocha -r chai/register-expect 'node-test/**/*.*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
@@ -14,7 +14,7 @@
     "build": "rollup -c",
     "format": "prettier --write .",
     "release": "release-it",
-    "prepublishOnly": "yarn build && pinst --disable",
+    "prepublishOnly": "pnpm build && pinst --disable",
     "postinstall": "husky install",
     "postpublish": "pinst --enable"
   },
