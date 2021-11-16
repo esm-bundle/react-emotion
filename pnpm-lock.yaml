@@ -15,7 +15,7 @@ specifiers:
   npm-run-all: 4.1.5
   pinst: 2.1.6
   prettier: 2.4.1
-  pretty-quick: 3.1.1
+  pretty-quick: 3.1.2
   prop-types: 15.7.2
   react: npm:@esm-bundle/react
   react-emotion: 9.2.12
@@ -42,7 +42,7 @@ devDependencies:
   npm-run-all: 4.1.5
   pinst: 2.1.6
   prettier: 2.4.1
-  pretty-quick: 3.1.1_prettier@2.4.1
+  pretty-quick: 3.1.2_prettier@2.4.1
   prop-types: 15.7.2
   react-emotion: 9.2.12_898c2bc9dda3dae26ffc4404678c5bd6
   release-it: 14.11.7
@@ -2612,8 +2612,8 @@ packages:
     hasBin: true
     dev: true
 
-  /pretty-quick/3.1.1_prettier@2.4.1:
-    resolution: {integrity: sha512-ZYLGiMoV2jcaas3vTJrLvKAYsxDoXQBUn8OSTxkl67Fyov9lyXivJTl0+2WVh+y6EovGcw7Lm5ThYpH+Sh3XxQ==}
+  /pretty-quick/3.1.2_prettier@2.4.1:
+    resolution: {integrity: sha512-T+fpTJrDjTzewql4p3lKrRA7z3MrNyjBK1MKeaBm5PpKwATgVm885TpY7TgY8KFt5Q1Qn3QDseRQcyX9AKTKkA==}
     engines: {node: '>=10.13'}
     hasBin: true
     peerDependencies:
