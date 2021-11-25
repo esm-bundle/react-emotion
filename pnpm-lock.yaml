@@ -14,7 +14,7 @@ specifiers:
   mocha: 9.1.3
   npm-run-all: 4.1.5
   pinst: 2.1.6
-  prettier: 2.4.1
+  prettier: 2.5.0
   pretty-quick: 3.1.2
   prop-types: 15.7.2
   react: npm:@esm-bundle/react
@@ -41,8 +41,8 @@ devDependencies:
   mocha: 9.1.3
   npm-run-all: 4.1.5
   pinst: 2.1.6
-  prettier: 2.4.1
-  pretty-quick: 3.1.2_prettier@2.4.1
+  prettier: 2.5.0
+  pretty-quick: 3.1.2_prettier@2.5.0
   prop-types: 15.7.2
   react-emotion: 9.2.12_898c2bc9dda3dae26ffc4404678c5bd6
   release-it: 14.11.8
@@ -2621,13 +2621,13 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier/2.4.1:
-    resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==}
+  /prettier/2.5.0:
+    resolution: {integrity: sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
 
-  /pretty-quick/3.1.2_prettier@2.4.1:
+  /pretty-quick/3.1.2_prettier@2.5.0:
     resolution: {integrity: sha512-T+fpTJrDjTzewql4p3lKrRA7z3MrNyjBK1MKeaBm5PpKwATgVm885TpY7TgY8KFt5Q1Qn3QDseRQcyX9AKTKkA==}
     engines: {node: '>=10.13'}
     hasBin: true
@@ -2640,7 +2640,7 @@ packages:
       ignore: 5.1.8
       mri: 1.1.6
       multimatch: 4.0.0
-      prettier: 2.4.1
+      prettier: 2.5.0
     dev: true
 
   /prop-types/15.7.2:
