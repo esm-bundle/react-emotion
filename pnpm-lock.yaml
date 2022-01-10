@@ -6,7 +6,7 @@ specifiers:
   '@rollup/plugin-replace': 3.0.1
   chai: 4.3.4
   concurrently: 7.0.0
-  emotion: npm:@esm-bundle/emotion@9.2.12
+  emotion: npm:@esm-bundle/emotion@10.0.27
   husky: 7.0.4
   karma: 6.3.10
   karma-firefox-launcher: 2.1.2
@@ -25,7 +25,7 @@ specifiers:
   rollup-plugin-terser: 7.0.2
 
 dependencies:
-  emotion: /@esm-bundle/emotion/9.2.12
+  emotion: /@esm-bundle/emotion/10.0.27
   react: /@esm-bundle/react/17.0.2-fix.1
 
 devDependencies:
@@ -44,7 +44,7 @@ devDependencies:
   prettier: 2.5.1
   pretty-quick: 3.1.3_prettier@2.5.1
   prop-types: 15.8.1
-  react-emotion: 9.2.12_9dcef760eb13b8c072e5518bd0494d33
+  react-emotion: 9.2.12_b5f11240bff0b8c38dcf88622da06eed
   release-it: 14.12.1
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.63.0
@@ -136,8 +136,8 @@ packages:
     resolution: {integrity: sha512-rLu3wcBWH4P5q1CGoSSH/i9hrXs7SlbRLkoq9IGuoPYNGQvDJ3pt/wmOM+XgYjIDRMVIdkUWt0RsfzF50JfnCw==}
     dev: true
 
-  /@esm-bundle/emotion/9.2.12:
-    resolution: {integrity: sha512-0Bpgnx1mJWmGWjdS8KijrhanYZyi74W7Wt8jv70TtkVRzL2RysF5fILKZ+HcWCZ6MiwCUpv6Ui1DuE7v85axZw==}
+  /@esm-bundle/emotion/10.0.27:
+    resolution: {integrity: sha512-/o7/rpB6ZmzH1qrlLOL1MjNORcUPL72mITIeDZvANznjwoyYrak3TWKSfZpxRXdrI/uBDSK86trrESWlcwxmHA==}
     dev: false
 
   /@esm-bundle/react/17.0.2-fix.1:
@@ -2724,7 +2724,7 @@ packages:
       strip-json-comments: 2.0.1
     dev: true
 
-  /react-emotion/9.2.12_9dcef760eb13b8c072e5518bd0494d33:
+  /react-emotion/9.2.12_b5f11240bff0b8c38dcf88622da06eed:
     resolution: {integrity: sha512-qt7XbxnEKX5sZ73rERJ92JMbEOoyOwG3BuCRFRkXrsJhEe+rFBRTljRw7yOLHZUCQC4GBObZhjXIduQ8S0ZpYw==}
     peerDependencies:
       emotion: ^9.1.3
@@ -2732,7 +2732,7 @@ packages:
     dependencies:
       babel-plugin-emotion: 9.2.11
       create-emotion-styled: 9.2.8_prop-types@15.8.1
-      emotion: /@esm-bundle/emotion/9.2.12
+      emotion: /@esm-bundle/emotion/10.0.27
       react: /@esm-bundle/react/17.0.2-fix.1
     transitivePeerDependencies:
       - prop-types

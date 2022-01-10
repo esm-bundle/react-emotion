@@ -55,7 +55,7 @@
     "rollup-plugin-terser": "7.0.2"
   },
   "dependencies": {
-    "emotion": "npm:@esm-bundle/emotion@9.2.12",
+    "emotion": "npm:@esm-bundle/emotion@10.0.27",
     "react": "npm:@esm-bundle/react"
   }
 }
