@@ -5,7 +5,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 13.3.0
   '@rollup/plugin-replace': 4.0.0
   chai: 4.3.4
-  concurrently: 7.2.0
+  concurrently: 7.2.1
   emotion: npm:@esm-bundle/emotion@10.0.27
   husky: 8.0.1
   karma: 6.3.20
@@ -33,7 +33,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.3.0_rollup@2.74.1
   '@rollup/plugin-replace': 4.0.0_rollup@2.74.1
   chai: 4.3.4
-  concurrently: 7.2.0
+  concurrently: 7.2.1
   husky: 8.0.1
   karma: 6.3.20
   karma-firefox-launcher: 2.1.2
@@ -143,11 +143,9 @@ packages:
 
   /@esm-bundle/emotion/10.0.27:
     resolution: {integrity: sha512-/o7/rpB6ZmzH1qrlLOL1MjNORcUPL72mITIeDZvANznjwoyYrak3TWKSfZpxRXdrI/uBDSK86trrESWlcwxmHA==}
-    dev: false
 
   /@esm-bundle/react/17.0.2-fix.1:
     resolution: {integrity: sha512-AzHd8Hi5KQjwgU2e3SD1XrMm5WF8y8zsKmP9ttsyR6bzTS8TAc1mWRc8UW0Q/px4D38mcP4+ofJDAhhFiB7KXg==}
-    dev: false
 
   /@iarna/toml/2.2.5:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
@@ -941,8 +939,8 @@ packages:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: true
 
-  /concurrently/7.2.0:
-    resolution: {integrity: sha512-4KIVY5HopDRhN3ndAgfFOLsMk1PZUPgghlgTMZ5Pb5aTrqYg86RcZaIZC2Cz+qpZ9DsX36WHGjvWnXPqdnblhw==}
+  /concurrently/7.2.1:
+    resolution: {integrity: sha512-7cab/QyqipqghrVr9qZmoWbidu0nHsmxrpNqQ7r/67vfl1DWJElexehQnTH1p+87tDkihaAjM79xTZyBQh7HLw==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
