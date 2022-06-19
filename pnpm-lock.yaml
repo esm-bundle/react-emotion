@@ -20,7 +20,7 @@ specifiers:
   react: npm:@esm-bundle/react
   react-emotion: 9.2.12
   release-it: 15.0.0
-  release-it-plugin-esm-bundle: 2.1.0
+  release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.75.6
   rollup-plugin-terser: 7.0.2
 
@@ -46,7 +46,7 @@ devDependencies:
   prop-types: 15.8.1
   react-emotion: 9.2.12_b5f11240bff0b8c38dcf88622da06eed
   release-it: 15.0.0
-  release-it-plugin-esm-bundle: 2.1.0
+  release-it-plugin-esm-bundle: 3.0.0_release-it@15.0.0
   rollup: 2.75.6
   rollup-plugin-terser: 7.0.2_rollup@2.75.6
 
@@ -3335,8 +3335,12 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it-plugin-esm-bundle/2.1.0:
-    resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
+  /release-it-plugin-esm-bundle/3.0.0_release-it@15.0.0:
+    resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
+    peerDependencies:
+      release-it: '>=15.0.0'
+    dependencies:
+      release-it: 15.0.0
     dev: true
 
   /release-it/15.0.0:
